@@ -79,5 +79,88 @@ descomprimir
 
 ya con esta configuracion de VPN ya se puede acceder usando la ip privada de los recursos (no se realizo por problemas de permisos en el equipo)
 
+## virtual wan
+
+solucion para cuando site-to-site se vuelve muy complejo, ya que se tienen muchas subredes, y cada una con un vitual network gateway
+
+![alt text](image-27.png)
+
+se usa un expressroute 
+
+![alt text](image-28.png)
+
+## load balancer
+
+![alt text](image-48.png)
+
+![alt text](image-49.png)
+
+## aplication gateway
+
+![alt text](image-29.png)
+
+![alt text](image-30.png)
+
+![alt text](image-31.png)
+
+![alt text](image-32.png)
+
+![alt text](image-33.png)
+
+![alt text](image-34.png)
+
+![alt text](image-35.png)
+
+![alt text](image-36.png)
+
+![alt text](image-37.png)
 
 
+![alt text](image-38.png)
+
+
+![alt text](image-39.png)
+
+![alt text](image-40.png)
+
+![alt text](image-41.png)
+
+![alt text](image-42.png)
+
+![alt text](image-43.png)
+
+![alt text](image-44.png)
+
+![alt text](image-45.png)
+
+![alt text](image-46.png)
+
+![alt text](image-47.png)
+
+![alt text](image-50.png)
+
+![alt text](image-51.png)
+
+![alt text](image-52.png)
+
+## front door como CDN
+
+![alt text](image-53.png)
+
+## front door como balanceador de carga
+
+![alt text](image-56.png)
+
+
+## redis cache
+
+![alt text](image-54.png)
+
+![alt text](image-55.png)
+
+## event hubs
+
+![alt text](image-57.png)
+
+
+![alt text](image-58.png)
