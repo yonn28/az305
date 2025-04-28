@@ -164,3 +164,62 @@ se usa un expressroute
 
 
 ![alt text](image-58.png)
+
+![alt text](image-59.png)
+
+![alt text](image-60.png)
+
+se crea el namespace pero se necesita crear un event hub
+
+![alt text](image-61.png)
+
+![alt text](image-62.png)
+
+![alt text](image-63.png)
+
+con los codigos de envio y recepcion 
+
+![alt text](image-65.png)
+
+descargar las contraseñas de accesos
+
+![alt text](image-64.png)
+
+![alt text](image-66.png)
+
+crear politica de acceso
+![alt text](image-67.png)
+
+sacar connection string
+
+![alt text](image-68.png)
+
+![alt text](image-69.png)
+
+![alt text](image-70.png)
+
+recibir eventos
+
+![alt text](image-71.png)
+
+![alt text](image-72.png)
+
+![alt text](image-73.png)
+
+![alt text](image-74.png)
+
+![alt text](image-75.png)
+
+![alt text](image-76.png)
+
+cleanup policy: no es para guardar data
+
+![alt text](image-77.png)
+
+![alt text](image-78.png)
+
+para hacer persistente los datos y realizar procesamiento de ellos, para guardarlos se usa storage accounts y analizar a posterior
+
+![alt text](image-79.png)
+
+![alt text](image-80.png)
