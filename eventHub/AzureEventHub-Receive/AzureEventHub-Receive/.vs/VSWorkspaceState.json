@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\AzureEventHub-Receive"
   ],
-  "SelectedNode": "\\AzureEventHub-Receive.sln",
+  "SelectedNode": "\\AzureEventHub-Receive\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

@@ -1,4 +1,8 @@
 
+## Azure file Sync
+
+
+
 
 ## conectivity onpremise site-to-site, and point-to-site (azure virtual network gateway)
 
@@ -169,6 +173,8 @@ se usa un expressroute
 
 ![alt text](image-60.png)
 
+![alt text](image-81.png)
+
 se crea el namespace pero se necesita crear un event hub
 
 ![alt text](image-61.png)
@@ -223,3 +229,216 @@ para hacer persistente los datos y realizar procesamiento de ellos, para guardar
 ![alt text](image-79.png)
 
 ![alt text](image-80.png)
+
+## Azure Functions
+
+![alt text](image-82.png)
+
+## lab scenario
+
+![alt text](image-83.png)
+
+![alt text](image-84.png)
+
+![alt text](image-85.png)
+
+generar el hub, y validar que hub este haciendo backup hacia el storage account.
+
+![alt text](image-91.png)
+
+cambiar la cadena de conexion en la function corriendo local para que escuche los eventos del event hub.
+
+![alt text](image-87.png)
+
+![alt text](image-88.png)
+
+![alt text](image-89.png)
+
+borrar la parte de entitie path
+
+![alt text](image-90.png)
+
+cambiar el nombre del event hub
+
+![alt text](image-92.png)
+
+Crear un app service y en el diagnose settings enviar la informacion al nuevo event hub
+
+![alt text](image-93.png)
+
+![alt text](image-94.png)
+
+![alt text](image-95.png)
+
+guardar y validar
+
+![alt text](image-96.png)
+
+generar trafico en el sitio
+
+![alt text](image-97.png)
+
+![alt text](image-98.png)
+
+colocando la function a correr actualizando la version a la mas reciente se pueden validar los eventos generados 
+
+![alt text](image-101.png)
+
+Crear un cosmosDb (noSql) para enviar los logs del eventhub desde la function
+
+![alt text](image-99.png)
+
+![alt text](image-100.png)
+
+con el uso de data explorer generar un nuevo container a donde mandar los logs del hub
+
+![alt text](image-102.png)
+
+en el segundo proyecto que tiene conexion con cosmos para function actualizar la cadena del hub y el nombre del hub
+
+![alt text](image-103.png)
+
+
+![alt text](image-104.png)
+
+crear el container en cosmosDB
+
+![alt text](image-105.png)
+
+![alt text](image-106.png)
+
+![alt text](image-107.png)
+
+actualizar la cadena de connecion del codigo
+
+![alt text](image-108.png)
+
+tener en cuenta que cuando se crea pide un nombre de bd, y un nombre de container, por eso el nombre de la bd NO!! es el nombre de la cuenta de cosmos db
+
+![alt text](image-109.png)
+
+![alt text](image-110.png)
+
+codigo funcionando desde local funcion
+
+![alt text](image-111.png)
+
+![alt text](image-113.png)
+
+desplegar la function
+
+![alt text](image-112.png)
+
+
+## Azure service Bus
+
+storage account al cual se le suben archivos, y se guarda la informacion en un contenedor no procesado y se genera un evento en el service bus, despues con otro codigo se leen los mensajes y se procesa guardando un registro en la bd de cosmosDB
+
+![alt text](image-114.png)
+
+
+![alt text](image-115.png)
+
+
+## logic apps
+
+![alt text](image-116.png)
+
+![alt text](image-117.png)
+
+![alt text](image-118.png)
+
+![alt text](image-119.png)
+
+![alt text](image-120.png)
+
+![alt text](image-121.png)
+
+![alt text](image-122.png)
+
+![alt text](image-123.png)
+
+adicionar eror en imgagen es la connection string y el nombre del storage account
+
+![alt text](image-124.png)
+
+![alt text](image-125.png)
+
+![alt text](image-126.png)
+
+![alt text](image-127.png)
+
+![alt text](image-128.png)
+
+adicionar una accion
+
+![alt text](image-129.png)
+
+![alt text](image-130.png)
+
+![alt text](image-131.png)
+
+despues de creada la conexion hacia la cuenta de outlook con las contraseñas pedidas
+
+![alt text](image-132.png)
+
+se pueden adicionar los valores del evento que lo genero
+
+![alt text](image-133.png)
+
+![alt text](image-134.png)
+
+![alt text](image-135.png)
+
+![alt text](image-136.png)
+
+ya llegan las notificaciones de actualizacion 
+
+![alt text](image-137.png)
+
+# Event Grid
+
+crear una function
+
+![alt text](image-139.png)
+
+se puede suscribir a los eventos de un storage account
+
+![alt text](image-138.png)
+
+
+
+# Api Management
+
+![alt text](image-140.png)
+
+# migration patterns
+
+![alt text](image-141.png)
+
+# Microsoft Cloud Adoption Framework
+
+![alt text](image-142.png)
+
+![alt text](image-143.png)
+
+# data transfer options to azure 
+
+![alt text](image-144.png)
+
+# azCopy tool
+
+![alt text](image-146.png)
+
+``` azcopy copy "my-local-data" "https://mystorageaccount.blob.core.windows.net/my-container/?<your_sas_token>" --recursive ```
+
+
+## azure data studio (migracion de dbs, crear configuracion y descargar agente en la VM objetivo)
+
+![alt text](image-147.png)
+
+![alt text](image-148.png)
+
+![alt text](image-149.png)
+
+![alt text](image-145.png)
