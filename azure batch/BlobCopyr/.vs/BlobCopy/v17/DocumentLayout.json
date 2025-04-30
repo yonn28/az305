@@ -1,0 +1,45 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ynova\\Desktop\\az305\\azure batch\\BlobCopyr\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0FD3A8F9-5ED5-42E9-B969-8AA2375AC03B}|BlobCopy\\BlobCopy.csproj|c:\\users\\ynova\\desktop\\az305\\azure batch\\blobcopyr\\blobcopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0FD3A8F9-5ED5-42E9-B969-8AA2375AC03B}|BlobCopy\\BlobCopy.csproj|solutionrelative:blobcopy\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:68873235:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ynova\\Desktop\\az305\\azure batch\\BlobCopyr\\BlobCopy\\Program.cs",
+              "RelativeDocumentMoniker": "BlobCopy\\Program.cs",
+              "ToolTip": "C:\\Users\\ynova\\Desktop\\az305\\azure batch\\BlobCopyr\\BlobCopy\\Program.cs",
+              "RelativeToolTip": "BlobCopy\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T14:19:22.762Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

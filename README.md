@@ -1,6 +1,13 @@
 
-## Azure file Sync
+## Azure batch
 
+![alt text](image-150.png)
+
+![alt text](image-151.png)
+
+![alt text](image-152.png)
+
+![alt text](image-153.png)
 
 
 
