@@ -1,4 +1,123 @@
 
+# Bussines Contrinuity
+
+creacion del server y de la db
+
+![alt text](image-154.png)
+
+utilizar el script sql
+
+```
+CREATE TABLE [logdata]
+(
+        [Id] int,
+        [Operationname] [varchar](200) NULL,
+	[Status] [varchar](100) NULL,
+	[Eventcategory] [varchar](100) NULL,
+	[Resourcetype] [varchar](1000) NULL,
+        [Resource] [varchar](2000) NULL
+)
+```
+
+generacion de data
+
+copiar la cadena de conexion y ejecutar el archivo (dejar ejecutar hasta cuantos registros se quiera)
+
+![alt text](image-155.png)
+
+
+![alt text](image-156.png)
+
+conceptos clave
+
+![alt text](image-157.png)
+
+la base de datos guarda todos los eventos que se han ejecutado en la bd
+
+![alt text](image-158.png)
+
+![alt text](image-159.png)
+
+
+# azure database backup
+
+![alt text](image-160.png)
+
+![alt text](image-161.png)
+
+![alt text](image-162.png)
+
+
+maximo 35 dias de retencion de los backups
+
+![alt text](image-163.png)
+
+para el caso de restaurar la base de datos dar click aqui
+
+![alt text](image-164.png)
+
+se abre este menu configurando el punto de restauracion, se puede obtener una base de datos nueva configurada con el RTO (retention Time objetive) maximo de 10 minutos
+
+![alt text](image-165.png)
+
+
+# sql database redundancy
+
+![alt text](image-166.png)
+
+# link para backups
+
+`https://learn.microsoft.com/en-us/azure/azure-sql/database/troubleshoot-common-connectivity-issues?view=azuresql`
+
+
+# active geo replication
+
+![alt text](image-168.png)
+
+![alt text](image-169.png)
+
+![alt text](image-170.png)
+
+![alt text](image-171.png)
+
+![alt text](image-172.png)
+
+![alt text](image-173.png)
+
+![alt text](image-174.png)
+
+primero adicionar la ip para que se pueda conectar a la bd
+
+![alt text](image-175.png)
+
+![alt text](image-176.png)
+
+![alt text](image-177.png)
+
+![alt text](image-178.png)
+
+la idea es tener una replica de la base de datos que se actualicé continuamente (en modo readonly)
+
+![alt text](image-179.png)
+
+# failover bd
+
+![alt text](image-180.png)
+
+![alt text](image-181.png)
+
+
+# auto-failover 
+
+no hay necesidad de cambiar la cadena de conexion entre los failover ya que existe un listener que ayuda con esta gestion internamente.
+
+![alt text](image-182.png)
+
+![alt text](image-183.png)
+
+
+---
+
 ## Azure batch
 
 ![alt text](image-150.png)
