@@ -1,4 +1,52 @@
 
+# identity and security
+
+![alt text](image-221.png)
+
+![alt text](image-222.png)
+
+![alt text](image-223.png)
+
+privilege identity management (adicionar los roles pero en modo "elegibility" para que el se los auto asigne en el Privilege identity management)
+
+![alt text](image-224.png)
+
+invitar usuarios externos
+
+![alt text](image-225.png)
+
+# access reviews de permisos en Entra ID
+
+![alt text](image-228.png)
+
+![alt text](image-226.png)
+
+```
+https://myapps.microsoft.com/
+
+```
+
+![alt text](image-227.png)
+
+# identity protection
+
+![alt text](image-229.png)
+
+
+![alt text](image-230.png)
+
+
+![alt text](image-231.png)
+
+
+
+# azure Blueprints
+
+![alt text](image-232.png)
+
+
+
+
 # Bussines Contrinuity
 
 creacion del server y de la db
@@ -114,6 +162,137 @@ no hay necesidad de cambiar la cadena de conexion entre los failover ya que exis
 ![alt text](image-182.png)
 
 ![alt text](image-183.png)
+
+
+# auto-failover groups
+
+crear una base de datos nueva en el mismo servidor
+
+![alt text](image-184.png)
+
+adicionar la ip que tenemos actualmente en la session de networking
+
+![alt text](image-185.png)
+
+additional settings
+
+adicionar la opcion de sample
+
+![alt text](image-186.png)
+
+crear la base de datos
+
+![alt text](image-187.png)
+
+crear una base de datos para adicionarla a el failover group
+
+![alt text](image-189.png)
+
+
+![alt text](image-190.png)
+
+![alt text](image-188.png)
+
+cambiar la localizacion de la creacion de la base de datos secundaria
+
+![alt text](image-191.png)
+
+
+usar autenticacion de password y usuario
+
+![alt text](image-192.png)
+
+permitir que otros servicios de azure accedan a este recurso
+
+![alt text](image-193.png)
+
+![alt text](image-194.png)
+
+ir a la base de datos y adicionar el nuevo motor creado en una zona diferente
+
+![alt text](image-195.png)
+
+
+![alt text](image-196.png)
+
+![alt text](image-197.png)
+
+![alt text](image-198.png)
+
+![alt text](image-199.png)
+
+seleccionar las bases de datos
+
+![alt text](image-200.png)
+
+![alt text](image-201.png)
+
+ir a la base de datos secundaria y adicionar la ip que se tiene actualmente para poder conectarse
+
+![alt text](image-202.png)
+
+![alt text](image-203.png)
+
+![alt text](image-204.png)
+
+copiar la direccion del servidor
+
+![alt text](image-205.png)
+
+
+conectarse con sql management
+
+![alt text](image-206.png)
+
+![alt text](image-207.png)
+
+
+configuracion del listener del failover group
+
+![alt text](image-208.png)
+
+![alt text](image-209.png)
+
+![alt text](image-210.png)
+
+
+![alt text](image-211.png)
+
+![alt text](image-212.png)
+
+
+actualizar la cadena de connexion
+
+![alt text](image-213.png)
+
+validar la cantidad de registos en la bd
+
+![alt text](image-214.png)
+
+crear la tabla primero para poder ejecutar el codigo
+
+![alt text](image-215.png)
+
+escribir algunos registros utilizando la cadena de failover group
+
+![alt text](image-216.png)
+
+![alt text](image-217.png)
+
+forzar el failover
+
+![alt text](image-218.png)
+
+![alt text](image-219.png)
+
+se genera un pequeña interrupcion en el servicio mientras este cambio sucede
+
+
+
+review of the sql database
+
+![alt text](image-220.png)
+
 
 
 ---

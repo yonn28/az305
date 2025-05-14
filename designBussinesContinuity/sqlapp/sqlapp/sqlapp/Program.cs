@@ -6,7 +6,7 @@ string strFilePath = "C:/Users/ynova/Desktop/az305/designBussinesContinuity/Log/
 StreamReader? logReader =null;
 int Id = 1;
 SqlConnection appdbConnection =
-    new SqlConnection("");
+    new SqlConnection("Server=tcp:dbgroup.database.windows.net,1433;Initial Catalog=advetnruresworksdb;Persist Security Info=False;User ID=dbadmin;Password=Password12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
 
 SqlParameter paramId = new SqlParameter();
 paramId.ParameterName = "@Id";
