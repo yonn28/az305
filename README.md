@@ -45,6 +45,70 @@ https://myapps.microsoft.com/
 ![alt text](image-232.png)
 
 
+# azure acces control
+
+![alt text](image-233.png)
+
+# manage identities
+
+![alt text](image-234.png)
+
+
+# azure key vault
+
+![alt text](image-235.png)
+
+
+
+# application proxy
+
+![alt text](image-236.png)
+
+
+![alt text](image-237.png)
+
+![alt text](image-238.png)
+
+
+# autorization and authentication
+
+![alt text](image-239.png)
+
+![alt text](image-240.png)
+
+
+# multifactor autentication
+
+![alt text](image-241.png)
+
+![alt text](image-242.png)
+
+![alt text](image-243.png)
+
+validar los metodos de autenticacion de informacion disponibles
+
+![alt text](image-244.png)
+
+# enterprice aplicaiotions para (single sing on)
+
+![alt text](image-245.png)
+
+
+![alt text](image-246.png)
+
+
+![alt text](image-247.png)
+
+permisos para poder acceder a la informacion de esta enterprice application,. en este caso la API de graph
+
+![alt text](image-248.png)
+
+
+# conditional access policies
+
+![alt text](image-249.png)
+
+
 
 
 # Bussines Contrinuity
